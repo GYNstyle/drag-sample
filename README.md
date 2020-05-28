@@ -1,5 +1,7 @@
 # drap-sample
 
+实现左右拖动和上下拖动的效果，并抽取为组件DragLine。
+
 ## Project setup
 ```
 npm install
@@ -14,6 +16,3 @@ npm run serve
 ```
 npm run build
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

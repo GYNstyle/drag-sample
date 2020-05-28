@@ -91,8 +91,8 @@ export default {
   justify-content: center;
 }
 .is-horizontal {
-  cursor: n-resize;
-  width: 100%;
+  cursor: row-resize;
+  height: 100%;
 }
 .is-vertical {
   cursor: col-resize;

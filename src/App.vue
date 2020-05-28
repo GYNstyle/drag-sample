@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="left">
-      <img alt="Vue logo" src="./assets/logo.png">
+      left-box
     </div>
     <drag-line :is-horizon="false" />
     <div class="right">
@@ -34,14 +34,13 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
   display: flex;
   height: 100%;
 }
 .left {
   flex-basis: 300px;
   width: 0;
-  display: felx;
+  display: flex;
   flex-direction: column;
 }
 .right {
